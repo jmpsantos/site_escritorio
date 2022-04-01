@@ -2,61 +2,103 @@
 <title>+Valia</title>
 <header>
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top navbar-custom">
     <div class="container-fluid">
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-mdb-toggle="collapse"
-        data-mdb-target="#navbarExample01"
-        aria-controls="navbarExample01"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <i class="fas fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarExample01">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item active">
-            <a class="nav-link" aria-current="page" href="#">Início</a>
+     <a class="navbar-brand" href="#"><img src=""></a> <!--Logo do escritorio -->
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+     <div class="collapse navbar-collapse" id="navbarResponsive">
+       <ul class="navbar-nav ml-auto">
+          <li class="nav-item"> 
+            <a class="nav-link" href="#">Início</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item"> 
             <a class="nav-link" href="#">Empresa</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item"> 
             <a class="nav-link" href="#">Serviços</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item"> 
+            <a class="nav-link" href="#">Links</a>
+          </li>
+          <li class="nav-item"> 
+            <a class="nav-link" href="#">Parceiros</a>
+          </li>
+          <li class="nav-item"> 
             <a class="nav-link" href="#">Contactos</a>
           </li>
-        </ul>
-      </div>
+       </ul>
+     </div>
     </div>
   </nav>
-  <!-- Navbar -->
 
-  <!-- Background image -->
-  <div
-    class="p-5 text-center bg-image"
-    style="
-      background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/041.webp');
-      height: 400px;
-    "
-  >
-    <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
-      <div class="d-flex justify-content-center align-items-center h-100">
-        <div class="text-white">
-          <h1 class="mb-3">+Valia</h1>
-          <h4 class="mb-3">Subheading</h4>
-          <a class="btn btn-outline-light btn-lg" href="#!" role="button"
-          >Call to action</a
-          >
-        </div>
+
+
+  <!--Slider-->
+  <div id="slides" class="carrousel slide" data-ride="carousel">
+    <ul class="carrousel-indicators">
+      <li data-target="#slides" data-slide-to="0" class="active"></li>
+      <li data-target="#slides" data-slide-to="1"></li>
+      <li data-target="#slides" data-slide-to="2"></li>
+    </ul>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item">
+      <img src=""> <!--Imagem slider 1-->
+      <div class="carousel-caption">
+        <h1>
+
+        </h1>
       </div>
     </div>
   </div>
-  <!-- Background image -->
+
+  <!--Perfil Empresa-->
+    <!--Titulo-->
+    <div class="container-fluid padding">
+      <div class="row welcome text-center">
+        <div class="col-12">
+          <h1 class="display-4">Perfil da Empresa</h1>
+          <hr>
+        </div>
+      </div>
+    </div>
+    <!--Cartões-->
+    <div class="container-fluid padding">
+      <div class="row padding">
+        <div class="col-md-3">
+          <div class="card">
+            <img class="card-imd-top" src="assets/ruisantos.png" width="80px" height="106">
+            <div class="card-body">
+              <h4 class="card-title">Rui Santos</h4>
+              <p class="card-text">Licenciado Economia
+                UBI/FUNDP (Bélgica)
+                Agente de Seguros registado no ISP</p>
+                <a href="mailto:ruisantos@maisvalia.pt" id="card-mail" class="btn btn-primary btn-sm stretched-link">E-Mail</a>
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img class="card-imd-top" src="assets/vitorsantos.png" width="80px" height="106">
+            <div class="card-body">
+              <h4 class="card-title">Vitor Santos</h4>
+              <p class="card-text">Licenciado Contabilidade e Administração IPB
+                Técnico Oficial Contas</p>
+              <a href="mailto:vitorsantos@maisvalia.pt" id="card-mail" class="btn btn-primary btn-sm stretched-link">E-Mail</a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+ 
 </header>
 <body>
-  
+   
 </body>
