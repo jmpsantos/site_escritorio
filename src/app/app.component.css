@@ -1,5 +1,6 @@
 .navbar-custom {
-    background-color: #ff7700;
+    background-color: #ff6600;
+    opacity: 1;
 }
 
 #card-mail{
@@ -20,4 +21,22 @@
 
 .nav-link{
     color:white;
+    font-weight: bold;
+    opacity: 1;
+}
+
+.link_contact{
+    font-size: small;
+}
+
+#contactos_iniciais{
+    position: relative;
+    top: 0px;
+}
+
+.mat-icon{
+    transform: scale(0.75);
+    position: relative;
+    top: 20%;
+    left: -2%;
 }
