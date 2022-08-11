@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <title>+Valia</title>
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet"> 
+</head>
 <header>
   <ul class="list-group list-group-horizontal">
     <li class="list-group-item border-0 link_contact">
@@ -21,8 +26,8 @@
      </button>
      <div class="collapse navbar-collapse" id="navbarResponsive">
        <ul class="navbar-nav ml-auto">
-        <li>
-          <img src="assets/s2.jpg" width="125px" height="62">
+        <li id="imge">
+          <img src="assets/s2.jpg" width="250px" height="124px">
         </li>
           <li class="nav-item"> 
             <a class="nav-link" href="#">Sobre Nós</a>
@@ -50,7 +55,6 @@
       <div class="row welcome text-center">
         <div id="sobre_n"class="col-12">
           <h1 class="display-4">Sobre Nós</h1>
-          <hr>
         </div>
       </div>
     </div>
@@ -61,7 +65,7 @@
           <div class="card">
             <img class="card-imd-top" src="assets/ruisantos.png" width="80px" height="106">
             <div class="card-body">
-              <h4 class="card-title">Rui Santos</h4>
+              <h4 style="color:#ff6600" class="card-title">Rui Santos</h4>
               <p class="card-text">Licenciado Economia
                 UBI/FUNDP (Bélgica)
                 Agente de Seguros registado no ISP</p>
@@ -74,29 +78,30 @@
           <div class="card">
             <img class="card-imd-top" src="assets/vitorsantos.png" width="80px" height="106">
             <div class="card-body">
-              <h4 class="card-title">Vitor Santos</h4>
+              <h4 style="color:#ff6600" class="card-title">Vitor Santos</h4>
               <p class="card-text">Licenciado Contabilidade e Administração IPB
                 Técnico Oficial Contas</p>
               <a href="mailto:vitorsantos@maisvalia.pt" id="card-mail" class="btn btn-primary btn-sm stretched-link">E-Mail</a>
-              
             </div>
           </div>
         </div>
+        <p>*Descrição</p>
       </div>
     </div>
+
   <!--Serviços-->
-  <div class="row welcome text-center">
-    <div id="sobre_n"class="col-12">
-      <h1 class="display-4">Serviços</h1>
-      <hr>
-    </div>
-  </div>
   <div class="container-fluid padding">
+    <div class="row welcome text-center">
+      <div id="sobre_n"class="col-12">
+        <hr>
+        <h1 class="display-4">Serviços</h1>
+      </div>
+    </div>
     <div class=" row d-flex justify-content-center padding">
       <div class="col-sm-2">
         <div class="card">
             <div class="card-body">
-              <h1 class="card-title">Seguros</h1>
+              <h1 style="color:#ff6600" class="card-title">Seguros</h1>
               <p class="card-text">Descrição</p>
             </div>
         </div>
@@ -104,7 +109,7 @@
       <div class="col-sm-2">
         <div class="card">
           <div class="card-body">
-            <h1 class="card-title">Contabilidade</h1>
+            <h1 style="color:#ff6600" class="card-title">Contabilidade</h1>
             <p class="card-text">Descrição</p>
           </div>
         </div>
@@ -112,7 +117,7 @@
       <div class="col-sm-2">
         <div class="card">
           <div class="card-body">
-            <h1 class="card-title">Créditos</h1>
+            <h1 style="color:#ff6600" class="card-title">Créditos</h1>
             <p class="card-text">Descrição</p>
           </div>
         </div>
@@ -120,7 +125,7 @@
       <div class="col-sm-2">
         <div class="card">
           <div class="card-body">
-            <h1 class="card-title">Aplicações Financeiras</h1>
+            <h1 style="color:#ff6600" class="card-title">Aplicações Financeiras</h1>
             <p class="card-text">Descrição</p>
           </div>
         </div>
@@ -130,7 +135,7 @@
       <div class="col-sm-2">
         <div class="card">
             <div class="card-body">
-              <h1 class="card-title">Projetos de Investimento</h1>
+              <h1 style="color:#ff6600" class="card-title">Projetos de Investimento</h1>
               <p class="card-text">Descrição</p>
             </div>
         </div>
@@ -138,7 +143,7 @@
       <div class="col-sm-2">
         <div class="card">
           <div class="card-body">
-            <h1 class="card-title">Criação de Empresas</h1>
+            <h1 style="color:#ff6600" class="card-title">Criação de Empresas</h1>
             <p class="card-text">Descrição</p>
           </div>
         </div>
@@ -146,7 +151,7 @@
       <div class="col-sm-2">
         <div class="card">
           <div class="card-body">
-            <h1 class="card-title">Recuperação de Empresas</h1>
+            <h1 style="color:#ff6600" class="card-title">Recuperação de Empresas</h1>
             <p class="card-text">Descrição</p>
           </div>
         </div>
@@ -156,7 +161,7 @@
       <div class="col-sm-2">
         <div class="card">
             <div class="card-body">
-              <h1 class="card-title">Consultoria</h1>
+              <h1 style="color:#ff6600" class="card-title">Consultoria</h1>
               <p class="card-text">Descrição</p>
             </div>
         </div>
@@ -164,11 +169,99 @@
       <div class="col-sm-2">
         <div class="card">
           <div class="card-body">
-            <h1 class="card-title">Documentação Geral</h1>
+            <h1 style="color:#ff6600" class="card-title">Documentação Geral</h1>
             <p class="card-text">Descrição</p>
           </div>
         </div>
       </div>
     </div>
   </div>
+
+  <!--Parceiros-->
+  <div class="container-fluid padding">
+    <div class="row welcome text-center">
+      <div id="sobre_n"class="col-12">
+        <hr>
+        <h1 class="display-4">Parceiros</h1>
+      </div>
+    </div>
+    <div class="row d-flex justify-content-center">
+      <div class="col-sm-2">
+        <div class="card">
+          <div class="card-body">
+            <h1 style="color:#ff6600" class="card-title">Documentação Geral</h1>
+            <p class="card-text">Descrição</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2">
+        <div class="card">
+          <div class="card-body">
+            <h1 style="color:#ff6600" class="card-title">Documentação Geral</h1>
+            <p class="card-text">Descrição</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2">
+        <div class="card">
+          <div class="card-body">
+            <h1 style="color:#ff6600" class="card-title">Documentação Geral</h1>
+            <p class="card-text">Descrição</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row d-flex justify-content-center padding">
+      <div class="col-sm-2">
+        <div class="card">
+          <div class="card-body">
+            <h1 style="color:#ff6600" class="card-title">Documentação Geral</h1>
+            <p class="card-text">Descrição</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2">
+        <div class="card">
+          <div class="card-body">
+            <h1 style="color:#ff6600" class="card-title">Documentação Geral</h1>
+            <p class="card-text">Descrição</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Contactenos-->
+
+  <div class="container-fluid padding">
+    <div class="row welcome text-center">
+      <div id="sobre_n"class="col-12">
+        <hr>
+        <h1 class="display-4">Contacte-nos</h1>
+      </div>
+    </div>
+    <div class="row d-flex justify-content-center padding">
+      <div class="col-md-3">
+        <form>
+          <div class="form-group">
+            <input type="text" readonly class="form-control-plaintext" type="text" name="Nome" value="" placeholder="Nome">
+            <hr>
+          </div>
+          <div class="form-group">
+            <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="" placeholder="Email">
+            <hr>
+          </div>
+          <div class="form-group">
+            <label>Assunto:</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="col-md-3">
+          <div class="mapouter"><div class="gmap_canvas"><iframe width="524" height="263" id="gmap_canvas" src="https://maps.google.com/maps?q=R.%20do%20Com%C3%A9rcio%20139,%204590-344%20Freamunde&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://2piratebay.org">pirate bay</a><br><style>.mapouter{position:relative;text-align:right;height:263px;width:524px;}</style><a href="https://www.embedgooglemap.net"></a><style>.gmap_canvas {overflow:hidden;background:none!important;height:263px;width:524px;}</style></div></div>      </div>
+      </div>
+    <div class="row welcome text-center"></div>
+    <div class="row welcome text-center"></div>
+  </div>
+  
 </body>

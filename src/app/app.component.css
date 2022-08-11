@@ -1,10 +1,9 @@
 .navbar-custom {
     background-color: #ff6600;
-    opacity: 1;
 }
 
 #card-mail{
-    background-color: #ff7700;
+    background-color: #ff6600;
 }
 
 .card-imd-top{
@@ -19,11 +18,13 @@
     margin-right: auto;
 }
 
-.nav-link{
-    color:white;
-    font-weight: bold;
-    opacity: 1;
-}
+.navbar-nav > li:not(#imge){
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 5%;
+    font-size: 180%;
+    color: black;
+  }
 
 .link_contact{
     font-size: small;
@@ -43,8 +44,12 @@
  
 .display-4{
     margin-top: 2%;
+    margin-left: -80%;
+    color:#ff6600; 
+    font-size: 48px; 
+    font-family: 'Poppins', sans-serif;
 }
 
 .row{
-    margin-top: 2%
+    margin-top: 5%
 }
