@@ -6,6 +6,10 @@
     background-color: #ff6600;
 }
 
+.card{
+    border-radius:9%;
+}
+
 .card-imd-top{
     display: block;
     margin-left: auto;
@@ -52,4 +56,9 @@
 
 .row{
     margin-top: 5%
+}
+
+.h1{
+    color:#ff6600;
+    font-size: 120%;
 }
