@@ -6,29 +6,84 @@
     background-color: #ff6600;
 }
 
-.card{
-    border-radius:9%;
-}
-
-.card-imd-top{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .col-md-3{
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.navbar-nav > li:not(#imge){
-    padding-left: 7%;
-    padding-right: 7%;
-    padding-top: 5%;
-    font-size: 180%;
-    color: black;
+.card{
+    
+}
+
+.card-serv{
+     border-radius:0%; 
+     background-color: transparent;
+    /* border: 1px solid #ff6600; */
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    width: 100%;
+    height: 75%;
+}
+
+.card-imd-top{
+    display: block;     
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
   }
+  
+
+
+.card:hover .card-inner {
+    transform: rotateY(180deg);
+
+}
+
+
+.card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.card-front {
+    background-color: rgb(255, 255, 255);
+  }
+  
+/* Style the back side */
+.card-back {
+    color: #ffff;
+    transform: rotateY(180deg);
+    width: 300px;
+    height: 75px;
+    background-color: #ff6600;
+    overflow:auto;
+}
+
+.navbar-nav > li:not(#imge){
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 4%;
+    font-size: 150%;
+    position: relative;
+    left: 140%;    
+    color: black;
+    white-space: nowrap ;
+  }
+
 
 .link_contact{
     font-size: small;
@@ -37,6 +92,10 @@
 #contactos_iniciais{
     position: relative;
     top: 0px;
+}
+
+.card-imd-top{
+    /* margin-top: 5%; */
 }
 
 .mat-icon{
@@ -61,4 +120,9 @@
 .h1{
     color:#ff6600;
     font-size: 120%;
+}
+
+.btn {
+    background-color: #ff7d03;
+    color:#ffff;
 }
