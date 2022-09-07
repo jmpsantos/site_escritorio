@@ -20,16 +20,9 @@
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark sticky-top navbar-custom">
     <div class="container-fluid">
-     <a class="navbar-brand" href="#"><img src=""></a> <!--Logo do escritorio -->
-     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-       <span class="navbar-toggler-icon"></span>
-     </button>
-     <div class="collapse navbar-collapse" id="navbarResponsive">
-       <ul class="navbar-nav ml-auto">
-        <li id="imge">
-          <img src="assets/s2.jpg" width="188px" height="93px">
-        </li>
-          <li class="nav-item"> 
+     <a class="navbar-brand" href="#"><img src="assets/s2.jpg"></a>  <!--Logo do escritorio */ -->
+     <ul class="navbar-nav mr-auto">
+          <li class="nav-item active"> 
             <a class="nav-link" href="#sec_sobrenos">Sobre Nós</a>
           </li>
           <li class="nav-item"> 
@@ -41,8 +34,7 @@
           <li class="nav-item"> 
             <a class="nav-link" href="#sec_contactos">Contactos</a>
           </li>
-       </ul>
-     </div>
+      </ul>
     </div>
   </nav>
 </header>
@@ -91,7 +83,7 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-10">
-            <p style="text-align: center; font-size: 150%;">A Agência Mais-Valia foi constituída no ano 2001 e dedica-se à prestação de serviços a empresas e particulares. A empresa conta nos seus quadros com profissionais qualificados que incutem um sentido empreendedor e dinâmico aos negócios de empresas e particulares com que se relacionam, tornando-se para estes uma mais-valia.</p>
+            <p>A Agência Mais-Valia foi constituída no ano 2001 e dedica-se à prestação de serviços a empresas e particulares. A empresa conta nos seus quadros com profissionais qualificados que incutem um sentido empreendedor e dinâmico aos negócios de empresas e particulares com que se relacionam, tornando-se para estes uma mais-valia.</p>
           </div>
         </div>
         
@@ -266,17 +258,20 @@
         <h1 id="sec_parceiros" class="display-4">Parceiros</h1>
       </div>
     </div>
+    <div class="row">
+      <p>A Agência Mais-Valia foi constituída no ano 2001 e dedica-se à prestação de serviços a empresas e particulares. A empresa conta nos seus quadros com profissionais qualificados que incutem um sentido empreendedor e dinâmico aos negócios de empresas e particulares com que se relacionam, tornando-se para estes uma mais-valia.</p>
+    </div>
     <div class="row d-flex justify-content-center">
-      <div class="col-sm-2">
+      <div class="col-sm-3">
         <img class="card-imd-top" src="assets/logos_parceiros/zurich.png" width="100px" height="90px"> 
       </div>
-      <div class="col-sm-2">
+      <div class="col-sm-3">
         <img class="card-imd-top" src="assets/logos_parceiros/lusitania.png" width="110px" height="90px">
       </div>
-      <div class="col-sm-2">
+      <div class="col-sm-3">
         <img class="card-imd-top" src="assets/logos_parceiros/allianz.png" width="140px" height="90px">
       </div>
-      <div class="col-sm-2">
+      <div class="col-sm-3">
         <img class="card-imd-top" src="assets/logos_parceiros/santander.png" width="130px" height="90px">
       </div>
     </div>
@@ -293,20 +288,21 @@
     </div>
     <div class="row d-flex justify-content-center padding">
       <div class="col-md-3">
-        <form>
+        <form action="https://formsubmit.co/joca3k@gmail.com" method="POST">
           <div class="form-group">
-            <input type="text" readonly class="form-control-plaintext" type="text" name="Nome" value="" placeholder="Nome">
+            <input class="form-control-plaintext" type="text" name="Nome" value="" placeholder="Nome" required>
             <hr>
           </div>
           <div class="form-group">
-            <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="" placeholder="Email">
+            <input type="text" class="form-control-plaintext"  name="Email" id="staticEmail" value="" placeholder="Email" required>
+            <input type="hidden" name="_next" routerLink="//mail">
             <hr>
           </div>
           <div class="form-group">
-            <label>Assunto:</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <label>Conteúdo:</label>
+            <textarea class="form-control"  name="Assunto" id="exampleFormControlTextarea1" rows="5"></textarea>
           </div>
-          <button style="margin-top: 7%; margin-left: 40%;" type="button" class="btn btn-warning">Enviar</button>
+          <button style="margin-top: 7%; margin-left: 40%;" type="submit" class="btn btn-warning">Enviar</button>
         </form>
       </div>
       <div class="col-md-3">
