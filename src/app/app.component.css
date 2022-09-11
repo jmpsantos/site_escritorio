@@ -14,13 +14,15 @@
     margin-right: auto;
 }
 
+.card{
+    
+}
 
 .card-serv{
      border-radius:0%; 
      background-color: transparent;
-    border: 1px solid #ff6600;
-    border-width: 70%;
-    /* perspective: 1000px; */
+    /* border: 1px solid #ff6600; */
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
     width: 100%;
     height: 75%;
 }
@@ -70,8 +72,12 @@
     width: 300px;
     height: 75px;
     background-color: #ff6600;
+<<<<<<< HEAD
     /* overflow:auto; */
     border-radius: 10px;
+=======
+    overflow:auto;
+>>>>>>> parent of 7408e23... flip_cartoes_servico 2.0
 }
 
 .navbar-nav > li{
