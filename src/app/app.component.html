@@ -4,6 +4,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet"> 
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+    </style> 
 </head>
 <header>
   <ul class="list-group list-group-horizontal">
@@ -23,16 +26,16 @@
      <a class="navbar-brand" href="#"><img src="assets/s2.jpg"></a>  <!--Logo do escritorio */ -->
      <ul class="navbar-nav mr-auto">
           <li class="nav-item active"> 
-            <a class="nav-link" href="#sec_sobrenos">Sobre Nós</a>
+            <a class="nav-link" href="#sobre_n">Sobre Nós</a>
           </li>
           <li class="nav-item"> 
-            <a class="nav-link" href="#">Serviços</a>
+            <a class="nav-link" href="#servicos">Serviços</a>
           </li>
           <li class="nav-item"> 
-            <a class="nav-link" href="#">Parceiros</a>
+            <a class="nav-link" href="#parceiros">Parceiros</a>
           </li>
           <li class="nav-item"> 
-            <a class="nav-link" href="#">Contactos</a>
+            <a class="nav-link" href="#contactos">Contactos</a>
           </li>
       </ul>
     </div>
@@ -91,9 +94,10 @@
     </div>
 
   <!--Serviços-->
-  <div class="container-fluid padding">
+  <!--Desktop-->
+  <div class="container-fluid padding hide-mobile">
     <div class="row welcome text-center">
-      <div id="sobre_n"class="col-12">
+      <div id="servicos"class="col-12">
         <hr>
         <h1 class="display-4">Serviços</h1>
       </div>
@@ -249,11 +253,13 @@
   </div>
     </div>
   </div>
+  <!--Mobile-->
+  <div class="container-fluid padding hide-mobile"></div>
 
   <!--Parceiros-->
   <div class="container-fluid padding">
     <div class="row welcome text-center">
-      <div id="sobre_n"class="col-12">
+      <div id="parceiros"class="col-12">
         <hr>
         <h1 class="display-4">Parceiros</h1>
       </div>
@@ -276,12 +282,14 @@
       </div>
     </div>
   </div>
+  <!--Mobile-->
+
 
   <!--Contactenos-->
 
   <div class="container-fluid padding">
     <div class="row welcome text-center">
-      <div id="sobre_n"class="col-12">
+      <div id="contactos"class="col-12">
         <hr>
         <h1 class="display-4">Contacte-nos</h1>
       </div>
@@ -311,5 +319,4 @@
     <div class="row welcome text-center"></div>
     <div class="row welcome text-center"></div>
   </div>
-  
 </body>

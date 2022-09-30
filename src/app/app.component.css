@@ -1,3 +1,10 @@
+.show-mobile {
+    display: none;
+  }
+  .hide-mobile {
+    display: block;
+  }
+
 
 .navbar-custom {
     background-color: #ff6600;
@@ -14,9 +21,6 @@
     margin-right: auto;
 }
 
-.card{
-    
-}
 
 .card-serv{
      border-radius:0%; 
@@ -83,7 +87,7 @@
     position: relative;
     right: 100%;    
     white-space: nowrap ;
-    font:;
+    font-family: 'Poppins', sans-serif;
 }
 
 p{
@@ -101,9 +105,6 @@ p{
     top: 0px;
 }
 
-.card-imd-top{
-    /* margin-top: 5%; */
-}
 
 .mat-icon{
     transform: scale(0.75);
@@ -114,11 +115,13 @@ p{
  
 .display-4{
     margin-top: 2%;
-    margin-left: -80%;
+    text-align: left;
     color:#ff6600; 
     font-size: 48px; 
     font-family: 'Poppins', sans-serif;
     font-size: 400%;
+    margin-left: 5%;
+
 }
 
 .row{
@@ -135,10 +138,11 @@ p{
 @media only screen and (max-width: 810px){
     .display-4{
         color:#ff6600;
-        font-size: 150%;
+        font-size: 250%;
         position: relative;
-        left: 40%;
         text-align: center;
+        margin-top: 10%;
+        margin-left: 5%;
     }
     
     .mapouter{
@@ -153,8 +157,9 @@ p{
        border: 1px solid #ff6600;
        border-width: 70%;
        /* perspective: 1000px; */
-       width: 90%;
-       height: 60%;
+       width: 200%;
+       height: 50%;
+       margin-left: 10%;
    }
 
    .card-imd-top{
@@ -163,8 +168,8 @@ p{
 
    .navbar-nav > li{
     font-size: 250%;
-    white-space: nowrap ;
-    left: 10px;
+    font-family: 'Poppins', sans-serif;
+    right: 30%;
     position: relative;
    }
 
@@ -176,5 +181,12 @@ p{
    h4{
     font-size: 120%;
    }
+
+   .show-mobile {
+    display: block;
+  }
+  .hide-mobile {
+    display: none;
+  }
 
 }
